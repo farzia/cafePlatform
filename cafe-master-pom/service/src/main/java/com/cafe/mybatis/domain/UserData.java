@@ -5,31 +5,52 @@ package com.cafe.mybatis.domain;
  */
 public class UserData {
 
-    private String email;
-    private String pwd;
-    private Integer id;
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPwd() {
-        return pwd;
-    }
-
-    public void setPwd(String pwd) {
-        this.pwd = pwd;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
+    private Integer userID;
+    private Integer restaurantID;
+    private Integer level;
+    private String name;
+    private String username;
+    private String password;
+    
+	public Integer getUserID() {
+		return userID;
+	}
+	public void setUserID(Integer userID) {
+		this.userID = userID;
+	}
+	public Integer getRestaurantID() {
+		return restaurantID;
+	}
+	public void setRestaurantID(Integer restaurantID) {
+		this.restaurantID = restaurantID;
+	}
+	public Integer getLevel() {
+		return level;
+	}
+	public void setLevel(Integer level) {
+		this.level = level;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+    
+       
+    
 }
+    
+
